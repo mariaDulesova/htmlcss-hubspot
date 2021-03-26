@@ -10,12 +10,21 @@ body {
 }
 h1{
     padding-top: 30px;
-    padding-bottom: 20px;
     font-weight: 700;
     font-size: 2.8rem;
     color: #2E3F4F
 }
+h3{
+    font-size: 1.9rem;
+    color: #2E3F4F
+}
+
+h4{
+    font-size: 1.4rem;
+    color: #2E3F4F
+}
 p {
+    padding: 20px 0;
     font-weight: 400;
     color: #2E3F4F;
 }
@@ -40,16 +49,28 @@ p {
     margin: 0 auto;
 }
 
-.clearfix::after {
-    content:"";
-    display: table;
-    clear:both;
-}
+
 .float-right{
     float:right;
 }
 .float-left{
     float:left;
+}
+.clearfix::after {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+.w-30{
+    width: 30%;
+    padding: 50px;
+}
+.w-70{
+    width: 60%;
+    padding: 50px 0;
+    text-align: left;
+
 }
 
 
@@ -106,15 +127,14 @@ nav{
     vertical-align: middle;
     width: 100px;
 }
-
 .main-menu{
     list-style: none;
     vertical-align: middle;
 }
-.main-menu li{
+.main-menu li {
     display: inline-block;  
 }
-.main-menu a{
+.main-menu a {
     padding-left: 20px;
     text-decoration: none;
     color:  #2E3F4F; 
@@ -147,10 +167,73 @@ nav{
     width: 50%;
 }
 
-hr{
+/* hr{
     height: 60px;
     border-top: 2px solid #2E3F4F;
     border-bottom: 2px solid #2E3F4F;
     background-color: #a7e9e1;
+} */
+
+/* Main message */
+.main-message {
+    text-align: center;
+    padding: 50px 100px 0;
 }
+.main-message img{
+    height: 180px;
+}
+
+/* Free offer */
+.free-hub{
+    margin: 30px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px #ebebeb;
+    background-color: white;
+    text-align: center;
+}
+.img-small {
+    width: 80%;
+}
+
+#uppercase {
+    float:left;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px 0 15px 0;
+}
+hr {
+    float:left;
+    width: 65%;
+    margin: 15px 0px 15px 20px;
+    color:  #2E3F4F; 
+}
+
+.clear-both{
+    clear:both;
+}
+
+.popolar-feature li {
+    display: inline-block;  
+    margin-right: 20px;
+    text-decoration: none;
+    color:  #2E3F4F; 
+    line-height: 20px;
+}
+
+.popolar-feature li::before{
+    content: "\2713";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height:20px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #FF7A59;
+    color: white;
+    text-align: center;
+}
+
+
+
+
 
