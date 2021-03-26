@@ -4,8 +4,153 @@
     margin: 0;
     padding:0;
 }
-
-
 body {
     font-family: 'Nunito', sans-serif;
+    font-size: 13px;
 }
+h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #2E3F4F
+}
+p {
+    font-weight: 400;
+    color: #2E3F4F;
+}
+.normal-size{
+    font-size: 1.1rem;
+}
+.small-size{
+    font-size: 0.8rem;
+
+}
+
+.background-gray{
+    background-color: #F6F8FA;
+}
+
+#border-gray{
+    border-bottom: 1px solid #2E3F4F;
+
+}
+.page-container-width{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content:"";
+    display: table;
+    clear:both;
+}
+.float-right{
+    float:right;
+}
+.float-left{
+    float:left;
+}
+
+
+/* Buttons */
+.btn {
+    border:1px solid #FF7A59;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#btn-white{
+    color: #FF7A59;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.btn-orange{
+    background-color: #FF7A59;
+}
+.btn-orange a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-big{
+    padding: 15px;
+    margin: 30px 0;
+}
+
+/* Header */
+.log-in{
+    /* position: fixed; */
+    line-height: 40px;
+}
+.log-in-left,
+.log-in-right {
+    vertical-align: middle;
+    padding: 5px 0;
+}
+.language{
+    padding-right: 30px;
+    border-right: 2px solid #2E3F4F;
+}
+.fa-search{
+    color: #11a5bd;
+}
+
+/* Navigation Menu */
+nav{
+    line-height: 60px;
+}
+
+.logo{
+    vertical-align: middle;
+    width: 100px;
+}
+
+.main-menu{
+    list-style: none;
+    vertical-align: middle;
+}
+.main-menu li{
+    display: inline-block;  
+}
+.main-menu a{
+    padding-left: 20px;
+    text-decoration: none;
+    color:  #2E3F4F; 
+}
+.main-menu a:hover{
+    color: #11a5bd;
+}
+
+/* Jambotron */
+
+.jambotron {
+    position: relative;
+    height: 580px;
+    background-image: url(../img/jumbotron.png);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 3px solid #2E3F4F;
+}
+
+/* .jambotron:after{
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: rgb(199, 199, 199);
+    margin: 20px auto 0;
+} */
+
+.jambotron-text-box{
+    width: 50%;
+}
+
+hr{
+    height: 60px;
+    border-top: 2px solid #2E3F4F;
+    border-bottom: 2px solid #2E3F4F;
+    background-color: #a7e9e1;
+}
+
