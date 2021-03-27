@@ -6,7 +6,7 @@
 }
 body {
     font-family: 'Nunito', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
 }
 h1{
     padding-top: 30px;
@@ -20,32 +20,36 @@ h3{
 }
 
 h4{
+    padding: 5px 0;
     font-size: 1.4rem;
     color: #2E3F4F
 }
 p {
-    padding: 20px 0;
+    padding: 10px 0;
     font-weight: 400;
     color: #2E3F4F;
 }
-.normal-size{
-    font-size: 1.1rem;
-}
+
 .small-size{
-    font-size: 0.8rem;
-
+    font-size: 0.7rem;
 }
 
+.background-white{
+    margin: 35px 0 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px #ebebeb;
+    background-color: white;
+    text-align: center;
+}
 .background-gray{
     background-color: #F6F8FA;
 }
-
 #border-gray{
     border-bottom: 1px solid #2E3F4F;
 
 }
 .page-container-width{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -64,7 +68,7 @@ p {
 
 .w-30{
     width: 30%;
-    padding: 50px;
+    padding: 40px 40px 0 40px;
 }
 .w-70{
     width: 60%;
@@ -80,22 +84,27 @@ p {
     border-radius: 3px;
     padding: 5px;
 }
+.btn a {
+    text-decoration: none;
+}
 
 #btn-white{
-    color: #FF7A59;
     background-color: white;
     margin: 0 10px;
+}
+#btn-white a{
+    color: #FF7A59;
 }
 
 .btn-orange{
     background-color: #FF7A59;
 }
 .btn-orange a{
-    text-decoration: none;
     color: white;
 }
 
 .btn-big{
+    width:140px;
     padding: 15px;
     margin: 30px 0;
 }
@@ -184,53 +193,71 @@ nav{
 }
 
 /* Free offer */
-.free-hub{
-    margin: 30px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 5px #ebebeb;
-    background-color: white;
-    text-align: center;
-}
+
 .img-small {
-    width: 80%;
+    height: 120px;
 }
 
-#uppercase {
-    float:left;
+.paragraph-with-parallel-line{
+    position:relative;
+}
+.text-uppercase,
+.text-uppercase-paid {
     text-transform: uppercase;
     font-weight: 700;
-    padding: 5px 0 15px 0;
+    padding: 15px 0 15px 0;
 }
-hr {
-    float:left;
-    width: 65%;
-    margin: 15px 0px 15px 20px;
-    color:  #2E3F4F; 
-}
+.text-uppercase:after {
+    width: 70%;
+    position: absolute;
+    content:"";
+    border-top: 1px solid #2E3F4F;
+    top: 49%;
+    margin-left: 20px;
+} 
 
 .clear-both{
     clear:both;
 }
 
+#popolar-feature-free li{
+    display: inline-block; 
+}
 .popolar-feature li {
-    display: inline-block;  
+    display: block;
     margin-right: 20px;
     text-decoration: none;
     color:  #2E3F4F; 
-    line-height: 20px;
+    line-height: 15px;
+    text-align: left;
 }
 
 .popolar-feature li::before{
     content: "\2713";
     display: inline-block;
-    height: 20px;
-    width: 20px;
-    line-height:20px;
+    height: 15px;
+    width: 15px;
+    line-height:15px;
     margin-right: 5px;
     border-radius: 50%;
     background-color: #FF7A59;
     color: white;
     text-align: center;
+}
+
+/* Paid offer */
+.col-middle {
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.text-uppercase-paid::before{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #2E3F4F;
+    margin: 20px auto;
 }
 
 
