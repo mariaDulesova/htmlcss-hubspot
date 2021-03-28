@@ -41,11 +41,25 @@ p {
     background-color: white;
     text-align: center;
 }
-.background-gray{
+.background-gray,
+.background-gray-main{
     background-color: #F6F8FA;
 }
+
+.background-gray-main{
+    padding-bottom: 40px;
+} 
 #border-gray{
     border-bottom: 1px solid #2E3F4F;
+
+}
+
+.background-green-gradient{
+    background-image: linear-gradient(45deg, #00a4bd,#00bda5);
+   
+}
+.content-color-white {
+    color: white;
 
 }
 .page-container-width{
@@ -64,6 +78,13 @@ p {
     content:"";
     display: table;
     clear:both;
+}
+
+.w-25{
+    width: 25%;
+    text-align: center;
+    padding: 30px 0;
+
 }
 
 .w-30{
@@ -258,6 +279,17 @@ nav{
     height: 1px;
     background-color: #2E3F4F;
     margin: 20px auto;
+}
+
+/* Data Section */
+.table-data{
+    padding: 50px 0;
+}
+.table-border-bottom {
+    border-bottom: 1px solid white;
+}
+.table-border-right {
+    border-right: 1px solid white;
 }
 
 
