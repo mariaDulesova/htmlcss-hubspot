@@ -87,13 +87,17 @@ p {
 
 }
 
+.w-50{
+    width: 50%;
+}
+
 .w-30{
     width: 30%;
-    padding: 40px 40px 0 40px;
+    padding: 30px;
 }
 .w-70{
     width: 60%;
-    padding: 50px 0;
+    padding: 60px 0;
     text-align: left;
 
 }
@@ -291,6 +295,38 @@ nav{
 .table-border-right {
     border-right: 1px solid white;
 }
+
+/* Customers section */
+.page-sub-container-width {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-logo{
+    margin-left:10%;
+}
+.logo-customer{
+    line-height: 50px;
+}
+
+.logo-customer img {
+    display: inline-block;
+    width: 20%;
+    margin-left: 4%;
+    vertical-align: middle;
+    text-align:right;
+}
+.get-started-message {
+    padding: 40px 0;
+}
+
+.text-alligned-right{
+    text-align: right;
+}
+.text-alligned-right img{
+    width: 60%;
+}
+
 
 
 
