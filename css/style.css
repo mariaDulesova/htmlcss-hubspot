@@ -199,12 +199,13 @@ nav {
     background-image: url(../img/jumbotron.png);
     background-size: cover;
     background-position-Y:60%;
+    background-attachment: fixed;
 }
 .jambotron-green-area {
     position: absolute;
     bottom: 0;
     width:100%;
-    height:60px;
+    height:45px;
     border-top: 3px solid #2E3F4F;
     border-bottom: 3px solid #2E3F4F;
     background-color: #9ce7de;
@@ -220,7 +221,6 @@ nav {
 }
 
 /* Hubs Section */
-
 .img-small {
     height: 120px;
 }
@@ -254,7 +254,6 @@ nav {
     line-height: 15px;
     text-align: left;
 }
-
 .popolar-feature li::before{
     content: "\2713";
     display: inline-block;
@@ -273,7 +272,6 @@ nav {
     margin-left:5%;
     margin-right:5%;
 }
-
 .text-uppercase-paid::before{
     content: " ";
     display: block;
@@ -283,16 +281,20 @@ nav {
     margin: 20px auto;
 }
 
-/* Data Section */
+/* Data Table Section */
 .table-data{
     padding: 50px 0;
     text-align: center;
+    line-height: 25px;
 }
 .table-border-bottom {
     border-bottom: 1px solid white;
 }
 .table-border-right {
     border-right: 1px solid white;
+}
+#hub-spot-growth-icon{
+    margin:5px 0;
 }
 
 /* Customers section */
